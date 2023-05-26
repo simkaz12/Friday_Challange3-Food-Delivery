@@ -1,0 +1,26 @@
+:root {
+    --main-color: #44d187;
+    --food-color1: #c5d7e5;
+    --food-color2: #ffd42e;
+    --food-color3: #d74369;
+    --food-color4: #fafafa;
+    --food-color5: #e5bde5;
+    --food-color6: #e5d4a7;
+    --food-color7: #93e5e5;
+    --food-color8: #a8e5e5;
+    --food-color9: #cae58f;
+    --food-color9: #e5c1c1;
+    --food-color9: #e5e58b;
+    --food-color9: #e5bde5;
+}
+
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+}
