@@ -3,7 +3,7 @@
     --food-color1: #c5d7e5;
     --food-color2: #ffd42e;
     --food-color3: #d74369;
-    --food-color4: #fafafa;
+    --uzsakymo: #fafafa;
     --food-color5: #e5bde5;
     --food-color6: #e5d4a7;
     --food-color7: #93e5e5;
@@ -22,5 +22,5 @@ body * {
 }
 
 body {
-    
+    font-family: Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
