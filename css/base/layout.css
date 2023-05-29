@@ -19,7 +19,7 @@ nav {
 nav > a {
    color: #fff;
    text-transform: uppercase;
-   /*padding: 30px;*/
+   
    
 }
 nav i {
@@ -45,11 +45,56 @@ a:hover {
 .main-content {
     background-color: #fff;
     width: 1000px;
+    font-size: 13px;
     
 }
+.virsus {
+   padding: 15px 0 0 30px;
+}
+.meal {
+   color: #000;
+   padding: 5px;
+}
+.first {
+   color: #fff;
+   background-color: var(--main-color);
+   border-radius: 12px;
+}
+.icona {
+   padding-right: 7px;
+}
+.meal:hover {
+   color: #fff;
+   background-color: #DAF6E7;
+   border-radius: 12px;
+}
+.virsus, .apacia {
+   line-height: 45px;
+   vertical-align: middle;
+}
+.apacia {
+   padding: 0 0 0 30px;
+}
+.recom {
+   float: right;
+   padding: 0 10px 0 0;
+}
+.dishes {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 20px;
+   justify-content: center;
+}
+.dishes img {
+   width: 100px;
+}
  .dish1, .dish2, .dish3, .dish4, .dish5, .dish6, .dish7, .dish8, .dish9 {
-    height: 60px;
-    width: 60px;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 5%;
+    color: #fff;
+    display: inline-block;
  }
  .dish1 {
     background-color: var(--food-color1);
@@ -78,6 +123,84 @@ a:hover {
  }
  .dish9 {
     background-color: var(--food-color9);
+ }
+ .food {
+   margin: 3px calc(50% - 50px);
+ }
+ .star {
+   color: gold;
+ }
+ .full-heart {
+   color: var(--food-color3);
+
+ }
+ .full-heart, .heart{
+   background-color: #fff;
+   padding: 5px;
+   border-radius: 13px;
+   float: right;
+   margin: 10px 10px;
+   
+ }
+ .heart {
+   color: #000;
+ }
+ .rate {
+   background-color: black;
+   padding: 3px;
+   border-radius: 20px;
+   float: left;
+   margin: 10px  10px;
+ }
+ .aprasas {
+   color: #000;
+   line-height: 20px;
+   padding-left: 15px;
+   
+ }
+ .gram1, .gram2, .gram3, .gram4, .gram5, .gram6, .gram7, .gram8, .gram9 {
+   background-color: #fff;
+   padding: 3px;
+   border-radius: 15px;
+   margin: 0 5px;
+ }
+ .gram1 {
+   color: var(--food-color1);
+ }
+ .gram2 {
+   color: var(--food-color2);
+ }
+ .gram3 {
+   color: var(--food-color3);
+ }
+ .gram4 {
+   color: var(--food-color4);
+ }
+ .gram5 {
+   color: var(--food-color5);
+ }
+ .gram6 {
+   color: var(--food-color6);
+ }
+ .gram7 {
+   color: var(--food-color7);
+ }
+ .gram8 {
+   color: var(--food-color8);
+ }
+ .gram9 {
+   color: var(--food-color9);
+ }
+ .button {
+   background-color: #fff;
+   color: var(--main-color);
+   border: 2px solid var(--main-color);
+   padding: 10px;
+   border-radius: 20px;
+   margin-left: calc(50% - 53px);
+ }
+ .reload {
+   padding-right: 5px;
  }
  .order {
     background-color: var(--uzsakymo);
