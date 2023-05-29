@@ -199,6 +199,11 @@ a:hover {
    border-radius: 20px;
    margin-left: calc(50% - 53px);
  }
+ .button:hover {
+   background-color: var(--main-color);
+   color: #fff;
+
+ }
  .reload {
    padding-right: 5px;
  }
